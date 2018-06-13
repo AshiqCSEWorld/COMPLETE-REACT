@@ -11,3 +11,13 @@ console.log(x);
 // Destructuring Objects
 const { name } = { name: 'Ashik', age: 23 };
 console.log(name);
+
+// Destrucuring function argument
+const info = {
+  weight: 82,
+  height: 5.5,
+};
+
+const showInfo = ({ weight }) => console.log(weight);
+
+showInfo(info);
